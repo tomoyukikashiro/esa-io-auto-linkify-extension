@@ -29,6 +29,17 @@ https://${自分のチーム}.esa.io/posts/${記事ID} この記事はおすす�
 
 ### Extensionのインストール
 
+こちらからインストール。
+
+https://chrome.google.com/webstore/detail/esaio-auto-linkify/bhboppnfmhinidnhacmcipminjnfjkcg
+
+**注意**
+
+すでにインストール済みの拡張がたくさんあると、新規でインストールした拡張のアイコンが表示されません。
+↓のようにして、常にアイコンを表示させてください。
+
+[![Image from Gyazo](https://i.gyazo.com/75b2c66ba409c56435908a185137d22f.png)](https://gyazo.com/75b2c66ba409c56435908a185137d22f)
+
 ### 設定の追加
 
 Extensionインストール後、追加されたアイコンを `右クリック` で `Options` をクリック。
@@ -61,6 +72,19 @@ https://${自分のチーム}.esa.io/posts/${記事ID} この記事はおすす�
 
 ↑のようにURLの後ろにスペースを入れてから、Extensionを実行してください。
 
+## References
 
+### Markdown Parser
 
+- [remark](https://github.com/remarkjs/)
+- [AST Inspector](https://github.com/syntax-tree/unist-util-inspect)
+- [AST Expoloer](https://astexplorer.net/#/gist/d9029a2e8827265fbb9b190083b59d4d/3384f3ce6a3084e50043d0c8ce34628ed7477603)
+- [AST Visit](https://github.com/syntax-tree/unist-util-visit)
+
+### Chrome Extension
+
+- [content_scripts](https://developer.chrome.com/extensions/content_scripts)
+- [background_pages](https://developer.chrome.com/extensions/background_pages)
+- [messaging](https://developer.chrome.com/extensions/messaging)
+- [esa api](https://docs.esa.io/posts/102)
 
