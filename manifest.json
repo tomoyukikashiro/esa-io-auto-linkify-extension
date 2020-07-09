@@ -3,7 +3,7 @@
   "name": "esa.io Auto Linkify",
   "description": "Make link Markdown format with post title.",
   "author": "Tomoyuki Kashiro",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "background": {
     "scripts": ["src/js/background.js"],
     "persistent": false

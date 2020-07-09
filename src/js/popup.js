@@ -24,6 +24,7 @@ import { Client } from './api'
     .use(stringify)
     .process(contents, function (err, file) {
       if (err) {
+        console.error(err)
         message.show('Markdownの解析に失敗しました。')
         return
       }
