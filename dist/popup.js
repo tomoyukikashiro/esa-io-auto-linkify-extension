@@ -16990,6 +16990,7 @@
       const url = new URL(`${this.#baseUrl}/${this.#team}/posts`);
       const query = ids.map(id => `number:${id}`).join(' or ');
       url.searchParams.append('q', query);
+      url.searchParams.append('per_page', 100);
       return request(url, this.#token)
     }
   }
@@ -17012,6 +17013,7 @@
       .use(remarkStringify)
       .process(contents, function (err, file) {
         if (err) {
+          console.error(err);
           message.show('Markdownの解析に失敗しました。');
           return
         }
